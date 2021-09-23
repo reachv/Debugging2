@@ -1,5 +1,7 @@
 package com.example.flixster.models;
 
+import android.graphics.Movie;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -16,7 +18,6 @@ public class Movies {
     String backdropPath;
     int movieId;
     double rating;
-
 
     public Movies(){
 
